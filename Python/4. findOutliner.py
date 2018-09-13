@@ -1,3 +1,5 @@
+# return value of number differs than others
+
 def find_outlier(integers):
     array = [int(i) % 2 for i in integers]
     if array.count (1) > array.count(0):
