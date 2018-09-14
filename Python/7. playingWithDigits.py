@@ -1,4 +1,7 @@
-
+# integer n = abcd
+# given p, find k so:
+# a^p + b^(p+1) + c^(p+2) + d^(p+3) = n * k
+# if k not exist, return -1
 
 def dig_pow(n, p):
     _ln = {}
