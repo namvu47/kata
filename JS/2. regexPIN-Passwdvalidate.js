@@ -18,5 +18,5 @@ regex = /^(?=.*[\d])(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*])[\w!@#$%^&*]{8,}$/;
 (?=.*[A-Z])       : contain at least 1 uppercase
 (?=.*[a-z])       : contain at least 1 lowercase
 (?=.*[!@#$%^&*])  : contain at least !@#$%^&*
-[\w!@#$%^&*]{8,}  : match [\w!@#$%^&*] 8 times (\w = [A-Za-z0-9_])
-$/
+[\w!@#$%^&*]{8,}  : match [\w!@#$%^&*] 8 times (\w = [A-Za-z0-9_])$/
+*/
