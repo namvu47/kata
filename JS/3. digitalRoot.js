@@ -15,3 +15,7 @@ function digital_root(n) {
 };
 
 console.log(digital_root(456));
+
+// function digital_root(n) {
+//   return (n - 1) % 9 + 1;
+// }
